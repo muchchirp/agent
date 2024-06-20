@@ -8,7 +8,7 @@ except ImportError:
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets["openai_key"]
-st.title("Chat with us about CicadaVPN service")
+st.title("Chat with us about the CicadaVPN service")
 st.info("Powered by ChatGPT 💬", icon="📃")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
