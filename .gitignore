@@ -2,3 +2,4 @@
 setup.sh
 venv/
 .streamlit
+archive/
